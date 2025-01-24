@@ -30,7 +30,7 @@ const Main = ({ input, setInput, output, setOutput,
         try {
            
             const response = await axios({
-                url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDiFQK3lxNwuyQFBD0Kg-gYY4kBehIGeh4",
+                url: ["Here better add your api key],
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
